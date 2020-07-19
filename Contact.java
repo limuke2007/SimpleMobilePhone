@@ -25,6 +25,6 @@ public class Contact {
     }
 
     public static Contact createContact(String contactName, String phoneNumber) {
-        return new Contact(contactName, phoneNumber);   // calls the constructor to create a contact return it.
+        return new Contact(contactName, phoneNumber);   // calls the constructor to create a contact and return it.
     }
 }
